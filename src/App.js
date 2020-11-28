@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import image1 from './images/insta.png';
+import image2 from './images/fb.png';
+import image3 from './images/twit.png';
+import Cmnt from './comment';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+const App = () => {
+
+    return (
+        <div>
+            <Cmnt name='Pooja Kushwah' time='07:00 PM' img = {image1} comment = 'Very nice' />
+            <Cmnt name='Priya Kushwah' time='08:00 PM' img = {image2} comment = 'Superb' />
+            <Cmnt name='Kriya Kushwah' time='09:00 PM' img = {image3} comment = 'awesoum' />
+            <Cmnt name='Shriya Kushwah' time='10:00 PM' img = {image1} comment = 'It is really Good' />
+        </div>
+    )
 }
 
 export default App;

@@ -1,0 +1,43 @@
+.main{
+    background-color: rgb(243, 240, 240);
+    display: flex;
+    padding: 20px;
+    width: 400px;
+    background-color: 1px solid black;
+    margin: 50px;
+}
+
+.image{
+    flex: 1;
+    margin: 10px;
+ 
+}
+
+.right{
+    flex: 3;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading{
+    display: flex;
+}
+
+.name{
+    flex: 2;
+    font-size: large;
+    font-weight: bold;
+    color: black;
+}
+
+.time{
+    flex: 1;
+    font-size: small;
+    color: gray;
+}
+.comment{
+    padding: 5px;
+    font-size: medium;
+    color: black;
+}
